@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>CyberCore GYM</title>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
@@ -14,7 +11,8 @@
       <div class="hdr-logo">CYBERCORE</div>
       <nav class="hdr-nav">
         <a href="#">Услуги</a>
-        <a href="#">Абонементы</a><a href="#">О зале</a>
+        <a href="#">Абонементы</a>
+        <a href="#">О зале</a>
         <a href="#">Контакты</a>
       </nav>
     </header>
@@ -24,7 +22,7 @@
         <div class="hero-content-wrapper">
           <h1>Добро пожаловать в CYBERCORE GYM</h1>
           <p>Будущее силы начинается здесь. Войди в форму нового поколения.</p>
-          <a href="#" class="btn-main">Записаться</a>
+          <a href="#form-section" class="btn-main">Записаться</a>
         </div>
       </section>
 
@@ -56,7 +54,7 @@
             <img src="images/Bodybuilder_img(2).png" alt="Силовой тренинг" />
             <h3>Силовой тренинг</h3>
             <p>Прокачай мощь. Программы для массы, силы, выносливости.</p>
-            <a href="#" class="btn-service">Записаться</a>
+            <a href="#form-section" class="btn-service">Записаться</a>
           </div>
 
           <div class="service-card">
@@ -65,21 +63,34 @@
             <p>
               Твоя форма — твоя уверенность. Кардио, жиросжигание, гибкость.
             </p>
-            <a href="#" class="btn-service">Записаться</a>
+            <a href="#form-section" class="btn-service">Записаться</a>
           </div>
 
           <div class="service-card">
-            <img
-              src="images/Bodybuilder_img(1).webp"
-              alt="Индивидуальные сессии"
-            />
+            <img src="images/Bodybuilder_img(1).webp" alt="Индивидуальные сессии" />
             <h3>Личный тренер</h3>
             <p>
               Тренируйся под чётким контролем профи. Достигай целей быстрее.
             </p>
-            <a href="#" class="btn-service">Записаться</a>
+            <a href="#form-section" class="btn-service">Записаться</a>
           </div>
         </div>
+      </section>
+
+      <section class="form-section" id="form-section">
+        <h2>Оставь заявку</h2>
+        <form action="#" method="post" class="signup-form">
+          <label for="name">Имя</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="goal">Цель тренировок</label>
+          <textarea id="goal" name="goal" rows="4" placeholder="Опиши, чего хочешь достичь..." required></textarea>
+
+          <button type="submit" class="btn-main">Отправить</button>
+        </form>
       </section>
     </main>
 
@@ -92,9 +103,7 @@
           <a href="#">FAQ</a>
           <a href="#">Контакты</a>
         </div>
-        <p class="footer-copy">
-          &copy; 2025 CYBERCORE GYM. Все права защищены.
-        </p>
+        <p class="footer-copy">&copy; 2025 CYBERCORE GYM. Все права защищены.</p>
       </div>
     </footer>
   </body>
