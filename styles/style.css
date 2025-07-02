@@ -81,7 +81,7 @@ header {
 
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/images/CyberCore-GYM_img.jpeg") no-repeat center center/cover fixed;
+    url(".images/CyberCore-GYM_img.jpeg") no-repeat center center/cover fixed;
   color: #00f0ff;
   text-shadow: 0 0 10px #00f0ff88;
   padding: 120px 40px;
@@ -195,7 +195,7 @@ header {
 .spacer {
   height: 240px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/CyberCore-GYM_img.jpeg");
+    url(".images/CyberCore-GYM_img.jpeg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
